@@ -1,0 +1,69 @@
+
+
+p, a {
+  margin: 0;
+  padding: 0;
+}
+
+/*FONT
+h1{
+  font-family: proxima-nova, sans-serif;
+font-style: normal;
+          font-weight: 700;
+}
+FONT*/
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+  /*font-family: cambiar al mas cercano de tiktok;*/
+
+}
+
+body{
+  background-color: black;
+  
+}
+
+
+
+.first_article, .second_article, .third_article{
+  max-width: 800px;
+  margin: 0 left;
+  padding: 20px;
+}
+
+.border-box-first, .border-box-second, .border-box-third{ 
+  display:inline-block;
+  margin-top: 10px;
+  border: 2px solid #08FDD8;
+  padding: 5px;
+}
+
+
+
+
+
+
+/*FOOTER*/
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer img {
+  margin: 0 20px;
+  
+}
+
+footer p {
+  margin: 0;
+  margin-left: -10px;
+}
+.instagram_image {
+  margin-right: 10px;
+}
+/*FOOTER*/

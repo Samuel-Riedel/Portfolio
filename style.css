@@ -1,8 +1,141 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+
+
+
+
+/*FONT
+h1{
+  font-family: proxima-nova, sans-serif;
+font-style: normal;
+          font-weight: 700;
+}
+FONT*/
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+  /*font-family: cambiar al mas cercano de tiktok;*/
+
+}
+
+
+p, a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body{
+  background-color: black;
+  
+}
+
+.header {
+  width: 100%;
+  /*height: 100vh;
+  background:#08FDD8;*/
+}
+
+.side-navigation {
+  width: 250px;
+  height: 100%;
+  background: #6c3a83c9;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  padding: 20px 30px;
+}
+
+.logo{
+  display: block;
+  margin-bottom: 130px;
+}
+
+.logo-img{
+  width: 150px;
+
+}
+.xbox-side-logo{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 50px;
+  padding: 10px 10px;
+  
+}
+
+.html-logo {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 50px;
+  padding: 0px 10px;
+  
+}
+
+.github-logo{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 50px;
+  padding: 10px 10px;
+  
+
+}
+
+.navigation-links {
+  list-style: none;
+  position: relative;
+}
+.navigation-links li{
+  padding: 10px 0px;
+}
+
+.navigation-links li a{
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 14px;
+}
+
+
+.first_article, .second_article, .third_article, .top-title{
+  max-width: 800px;
+  margin: 0 0 0 250px;
+  padding: 20px;
+}
+
+.border-box-first, .border-box-second, .border-box-third{ 
+  display:inline-block;
+  margin-top: 10px;
+  border: 2px solid #08FDD8;
+  padding: 5px;
+}
+
+
+
+
+
+
+
+
+/*FOOTER*/
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer img {
+  margin: 0 20px;
+  
+}
+
+footer p {
+  margin: 0;
+  margin-left: -10px;
+}
+.instagram_image {
+  margin-right: 10px;
+}
+/*FOOTER*/
